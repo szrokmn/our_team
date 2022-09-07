@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+body{
+    background-color:cadetblue;
+    height: 210vh;
+}
+.header{
+    background-color: rgba(255, 255, 255, 0.693);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:0 7%;
+    margin: 30px;
+    border-radius: 80px;
+    position: sticky;
+    top:0;
+    
+}
+.header img{
+    width: 150px;
+    border-radius: 80px;    
+}
+.navbar a{
+    color:darkblue;
+    font-size: 20px;
+    margin:0 25px;
+    border-bottom: 1px solid transparent;
+}
+.navbar a i{
+    margin-right: 8px;
+}
+.navbar .active,
+.navbar a:hover{
+    border-color: darkblue;
+    padding-bottom: 3px;
+}
+.headerdiv i{
+    font-size: 22px;
+    margin:20px;
+    cursor: pointer;
+}
+.bottom-button{
+    font-size: 22px;
+    color: darkblue;
+    background-color: rgb(52, 194, 194);
+    width: 175px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;  
+    margin-left: 25px;  
+}
+.home{
+    background: url(images/homee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+    margin-top: -210px;
+    display: flex;
+}
+.homediv{
+    margin:0 7%;
+    width: 60%;
+}
+.homediv h1{
+    font-size: 70px;
+    color: white;
+}
+.homediv p{
+    font-size: 20px;
+    color: white;
+    line-height: 32px;
+    padding-top: 30px;
+    letter-spacing: 1.8px;
+}
+/* section start */
+.member img{
+    width: 400px;
+    height: 300px;
+    border-radius: 60px;
+}
+.big1, .big2{
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.member{
+    margin: 80px;
+    background-color: white;
+    border-radius: 60px;
+    height: 500px;
+    text-align: center;
+}
+.teamsection h2{
+    font-size: 70px;
+    text-align: center;
+    margin: 70px;
+    color: white;
+}
+h3{
+    font-size: 36px;
+    margin: 20px;
+}
+.member p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.member a{
+    font-size: 32px;
+    margin: 35px;
+}
+.footer{
+    background-color: rgb(154, 236, 238);
+    height:10vh;
+    text-align: center; 
+}
+.footer p{
+    font-size: 30px;
+    text-align: center;   
+    padding-top: 25px;    
+   
+}
+.footer span{
+    color: rgb(152, 90, 37);
+}
+.footerbutton{
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(211, 131, 60) ;
+    color: bisque; 
+    margin-top: 25px;    
+}
+
+
+
+
+
+
+/* section end */
